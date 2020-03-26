@@ -1,7 +1,11 @@
 # esp-sht3x-micropython
- A SHT3x (SHT30/31/35) Lib for esp8266/esp32 with MicroPython.
+[![Author](https://img.shields.io/badge/Author-HAIZAKURA-b68469?style=flat-square)](https://nya.run)
 
-If you are using pyboard or another board, please modify the usage of `Pin` and `I2C` .
+[![License](https://img.shields.io/github/license/HAIZAKURA/esp-sht3x-micropython?style=flat-square)](./LICENSE)
+
+A SHT3x (SHT30/31/35) Lib for esp8266/esp32 with MicroPython.
+
+If you are using pyboard or another board, please modify the usage of `Pin` and `I2C` in `sht3x.py` .
 
 ## Usage
 
@@ -37,4 +41,10 @@ And comment the following code.
 temperature = (175.0 * float(temperature_raw) / 65535.0) - 45
 ```
 
-The `build/sh3x.mpy` is a compiled bytecode file, and only can be used in `MicroPython v1.12+` .
+The `build/sh3x.mpy` is a compiled bytecode file, and **only can be used in `MicroPython v1.12+` **.
+
+## Author
+
+**esp-sht3x-micropython** © [HAIZAKURA](https://nya.run), Released under the [MIT](./LICENSE) License.
+
+> [Personal Website](https://nya.run) · GitHub [@HAIZAKURA](https://github.com/HAIZAKURA) · Twitter [@haizakura_0v0](https://twitter.com/haizakura_0v0) · Telegram [@haizakura](https://t.me/haizakura)
