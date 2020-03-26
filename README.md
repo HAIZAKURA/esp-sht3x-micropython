@@ -10,7 +10,7 @@ If you are using pyboard or another board, please modify the usage of `Pin` and 
 ```python
 from sht3x import SHT3x_Sensor
 
-sht3x_sensor = SHT3x_Sensor(freq = 100000, sdapin=5, sclpin=4)
+sht3x_sensor = SHT3x_Sensor(freq=100000, sdapin=5, sclpin=4)
 measure_data = sht3x_sensor.read_temp_humd()
 # measure_data = [22.9759, 73.8277]
 # The default decimal place is 4 digits
